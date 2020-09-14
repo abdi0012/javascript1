@@ -1,0 +1,19 @@
+<script type='text/javascript'>
+$(document).ready(function() {
+$('img#closed').click(function(){
+$('#btm_banner').hide(90);
+});
+});
+</script>
+<style type='text/css'>
+div#btm_banner {
+bottom: 0;
+position: fixed;
+width: 100%;
+opacity: 0.9;
+left: 0;
+}
+div#btm_banner img{
+border:0;
+cursor:pointer;
+}
